@@ -1,0 +1,63 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "rootDir": "src",
+    "outDir": "build",
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "node_modules/*"
+      ]
+    },
+    "lib": [
+      "es2018"
+    ],
+    "declaration": false,
+    "strict": false,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": false,
+    "incremental": true,
+    "noFallthroughCasesInSwitch": false,
+    "inlineSources": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false,
+    "forceConsistentCasingInFileNames": true, /* Ensure that casing is correct in imports. */
+    "useUnknownInCatchVariables": false
+  }
+  // "compilerOptions": {
+  //   "target": "es2016", /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+  //   "lib": [
+  //     "es6"
+  //   ], /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+  //   /* Modules */
+  //   "module": "commonjs", /* Specify what module code is generated. */
+  //   "rootDir": "src", /* Specify the root folder within your source files. */
+  //   "resolveJsonModule": true, /* Enable importing .json files. */
+  //   // "noResolve": true,                                /* Disallow 'import's, 'require's or '<reference>'s from expanding the number of files TypeScript should add to a project. */
+  //   /* JavaScript Support */
+  //   "allowJs": true, /* Allow JavaScript files to be a part of your program. Use the 'checkJS' option to get errors from these files. */
+  //   // "outFile": "./",                                  /* Specify a file that bundles all outputs into one JavaScript file. If 'declaration' is true, also designates a file that bundles all .d.ts output. */
+  //   "outDir": "build", /* Specify an output folder for all emitted files. */
+  //   "esModuleInterop": true, /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+  //   // "preserveSymlinks": true,                         /* Disable resolving symlinks to their realpath. This correlates to the same flag in node. */
+  //   "forceConsistentCasingInFileNames": true, /* Ensure that casing is correct in imports. */
+  //   /* Type Checking */
+  //   "strict": true, /* Enable all strict type-checking options. */
+  //   "noImplicitAny": true, /* Enable error reporting for expressions and declarations with an implied 'any' type. */
+  //   /* Completeness */
+  //   // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
+  //   "skipLibCheck": true /* Skip type checking all .d.ts files. */
+  // }
+}
